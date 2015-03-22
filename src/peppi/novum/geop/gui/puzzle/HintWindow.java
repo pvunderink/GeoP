@@ -36,7 +36,7 @@ public class HintWindow extends JFrame {
 		chooseLabel.setBounds(width / 2 - 100 / 2, 70, 100, 20);
 		pane.add(chooseLabel);
 
-		final JComboBox wordsBox = new JComboBox();
+		final JComboBox<String> wordsBox = new JComboBox<String>();
 		wordsBox.setBounds(width / 2 - 100 / 2, 100, 100, 30);
 		pane.add(wordsBox);
 
