@@ -35,7 +35,7 @@ public class Main {
 		if (!file.exists()) {
 			file.mkdirs();
 		}
-
+		System.out.println("bonsoireeeeeeeeeeee");
 		new Thread("Startup") {
 			public void run() {
 				MAIN_WINDOW = new MainWindow();
